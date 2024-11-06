@@ -1,0 +1,53 @@
+.item-card {
+    width: 190px;
+    height: 180px;
+    padding: 20px;
+    gap: 10px;
+    background-color: #1E1E1E99; /* #1E1E1E */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: #E6E6E6;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    
+  }
+
+.item-image2 {
+    width: 30%; 
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+  }
+
+.card-buttons {
+    display: flex;
+    gap: 5px;
+    position: relative;
+    z-index: 1;
+  }
+  
+.rout-button {
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #1E1E1E99;
+    color: #9B9B9B;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+  }
+  
+  .rout-button:hover {
+    background-color: #F20B53;
+    cursor: not-allowed;
+  }
+  

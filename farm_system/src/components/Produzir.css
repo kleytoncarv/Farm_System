@@ -1,0 +1,44 @@
+/* Container externo com barra de rolagem */
+.scroll-container {
+  max-width: 450px; /* Limita a largura do container */
+  max-height: 460px; /* Limita a altura do container */
+  overflow-y: auto; /* Habilita a rolagem vertical */
+  overflow-x: hidden; /* Evita a rolagem horizontal */
+  padding: 20px;
+  margin: 0 auto; /* Centraliza o container */
+  margin-left: 210px;
+  margin-top: 160px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Configuração do grid de cards */
+.card-grid-produzir {
+  display: grid;  
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  gap: 10px; /* Espaço entre os cards */
+}
+
+/* Estiliza a barra de rolagem */
+.scroll-container::-webkit-scrollbar {
+  width: 4px; /* Largura da barra de rolagem */
+  
+}
+
+/* Estiliza o fundo da barra de rolagem */
+.scroll-container::-webkit-scrollbar-track {
+  background: 'transparent'; /* Cor do trilho */
+  border-radius: 10px;
+}
+
+/* Estiliza o polegar da barra de rolagem */
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color:#F20B53;
+  border-radius: 10px;
+  
+}
+
+/* Opcional: adiciona efeito de hover no polegar */
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #df4374; /* Cor ao passar o mouse */
+}

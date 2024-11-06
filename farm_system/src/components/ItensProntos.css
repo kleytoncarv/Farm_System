@@ -1,0 +1,28 @@
+.prontos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(229px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  /* src/components/Coletar.css */
+.card-grid {
+  display: grid;  
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 15px; /* Espaço entre os cards */
+  justify-items: center; /* Centraliza os cards na coluna */
+  padding: 20px;
+  margin-top: 20%;
+}
+
+.card-container {
+  width: 229px;
+  /* Estilos adicionais para o card */
+}
+
+.lock-image {
+  width: 30px; /* Ajuste o tamanho conforme necessário */
+  height: 30px; /* Ajuste o tamanho conforme necessário */
+}
+
+

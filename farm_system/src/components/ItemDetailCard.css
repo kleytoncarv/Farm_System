@@ -1,0 +1,116 @@
+/* ItemDetailCard.css */
+
+.item-detail-card {
+  width: 220px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #1E1E1E99; /* Cor de fundo clara */
+  border: 1px solid 'transparent'; /* Borda sutil */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  position: absolute;
+  top: 24.5%;
+  left: 24.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.item-detail-name{
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  color: #E6E6E6;
+}
+.materials-list {
+  flex-grow: 1;
+  list-style: none;
+  font-family: 'Outfit', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  width: 100%; /* Certifique-se de que a lista utilize a largura total */
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity-control button {
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 9px;
+  background-color: transparent; /* Cor do botão */
+  color: #E6E6E6; /* Cor do texto do botão */
+  border: none;
+  border-radius: 4px; /* Cantos arredondados */
+  cursor: pointer;
+  transition: background-color 0.6s; /* Transição suave */
+}
+
+.quantity-control button:hover {
+  background-color: #F20B53; /* Cor do botão no hover */
+}
+
+.quantity-control input {
+  display: flex;
+  margin-top: 60px;
+  background-color: #33323279;
+  color: #fff;
+  width: 50px;
+  text-align: center;
+  gap: 5px;
+  border: 1px solid transparent; /* Borda para o campo de entrada */
+  border-radius: 4px; /* Cantos arredondados */
+}
+
+.produce-button {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0e0d0dfd; /* Verde para o botão de produzir */
+  color: #E6E6E6;
+  border: 1px solid;
+  border-color: #F20B53;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.6s; /* Transição suave */
+  font-family: 'Outfit', sans-serif;
+  margin-top: auto;
+}
+
+.produce-button:hover {
+  background-color: #F20B53; /* Cor do botão no hover */
+  border-color: #F20B53;
+  color: #fff;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.item-detail-image {
+  position: absolute;
+  width: 35%; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 4px; /* Bordas arredondadas, opcional */
+  margin-top: 30px; /* Espaço abaixo da imagem */
+  margin-left: 120px;
+}

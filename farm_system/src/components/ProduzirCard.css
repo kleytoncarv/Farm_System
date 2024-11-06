@@ -1,0 +1,58 @@
+.produzir-card {
+  width: 200px;
+  height: 190px;
+  background-color: #1E1E1E99; /* #1E1E1E */
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #f70f0f;
+  text-align: center;
+  position: relative;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+  .produzir-name {
+    position: absolute;
+    height: auto;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    top: 10px;
+    left: 10px;
+    color: #E6E6E6;
+    
+  }
+
+  .produzir-weight {
+    font-size: 14px;
+    color: #E6E6E6;
+    position: absolute;
+    height: auto;
+    font-weight: bold;
+    margin: 0;
+    top: 10px;
+    right: 10px;
+  }
+
+  .produzir-image {
+    width: 50%; 
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 50px; 
+
+  }
+
+  
+ 
+  .produzir-card.active {
+    background-color: #000000; /* Cor de fundo quando ativo */
+    border: 1px solid var(--Pink, #F20B53); /* Borda quando ativo */
+    color: #E6E6E6; /* Cor do texto quando ativo */
+  }

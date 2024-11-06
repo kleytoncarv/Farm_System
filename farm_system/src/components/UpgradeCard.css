@@ -1,0 +1,30 @@
+.item-card-upgrade {
+    width: 190px;
+    height: 180px;
+    padding: 20px;
+    gap: 10px;
+    background-color: #1E1E1E99; /* #1E1E1E */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: #E6E6E6;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    margin-bottom: 90%;
+    
+  }
+
+.item-image3 {
+    width: 30%; 
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+  }
+
+
+  

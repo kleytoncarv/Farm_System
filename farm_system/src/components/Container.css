@@ -1,0 +1,105 @@
+/* Container padrão */
+.custom-container {
+    width: 767px;
+    height: 637px;
+    position: absolute;
+    top: 110px;
+    left: 337px;
+    gap: 0px;
+    border-radius: 10px;
+    background: rgba(14, 0, 4, 0.92); /* 'EB' em hexadecimal representa cerca de 92% de opacidade */
+  }
+
+  .system-text {
+    width: 126px;
+    height: 38.05px;
+    position: absolute;
+    top: 8px;
+    left: 25px;
+    gap: 0px;
+    font-family: 'Outfit', sans-serif; /* Certifique-se de que a fonte esteja importada */
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35.28px;
+    text-align: left;
+    color: #F20B53
+  }
+
+  .farm-text {
+    width: 79px;
+    height: 27.74px;
+    position: absolute;
+    top: -8px;
+    left: 25px;
+    gap: 0px;
+    opacity: 1;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30.24px;
+    text-align: left;
+    color: #BBBBBB;
+  }
+
+  .farm-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 14px;
+    left: 25px;
+    gap: 0px; /* Espaçamento entre o texto e a imagem */
+  }
+
+  .craft-icon {
+        width: 19px;
+        height: 16px;
+        color: #BBBBBB;
+        opacity: 1;
+        position: relative;
+        top: 7.62px; /* Ajuste vertical */
+        left: 73px; /* Ajuste horizontal */
+      
+  }
+  
+
+/* área da navbar */
+
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Move os itens para a direita */
+  padding-right: 40px; /* Adicione espaçamento, se necessário */
+  margin-top: 20px;
+  gap: 10px;
+  
+}
+
+.nav-item {
+  font-family: 'Outfit', sans-serif;
+  padding: 8px 20px;
+  gap: 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color:#1E1E1ECC;
+  cursor: pointer;
+  color: #9B9B9B;
+  transition: background-color 0.6s, color 0.6s;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.16px;
+  text-align: left;
+
+}
+
+.nav-item:hover {
+  background-color: #F20B53; /* #F20B53 */
+  color: #E6E6E6;
+}
+
+.nav-item.active {
+  background-color: #000000; /* Cor mais escura para o botão ativo */
+  border: 1px solid var(--Pink, #F20B53);
+  color: #E6E6E6;
+}

@@ -1,0 +1,14 @@
+.vector-container {
+    width: 13px; /* Largura do contêiner */
+    height: 12px; /* Altura do contêiner */
+    position: absolute; /* Posição absoluta */
+    top: -13px; /* Posição vertical */
+    left: 755px; /* Posição horizontal */
+    padding: 5.5px 5.48px 4.4px 5.48px; /* Padding */
+    background-color: #1A1A1A;
+    border-radius: 3px 0px 0px 0px; /* Raio das bordas */
+    display: flex; /* Usado para alinhar o conteúdo dentro do contêiner */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+  

@@ -11,8 +11,9 @@ Vite
 
 1. Acesse a pasta
 2. Abra o terminal
-3. Acesse a pasta farm_system: cd farm_system
-4. Inicialize o projeto: npm run dev
+3. Execute o comando para reinstalar as dependências: No terminal, navegue até a pasta do seu projeto e execute: npm install
+4. Acesse a pasta farm_system: cd farm_system
+5. Inicialize o projeto: npm run dev
 
 📌 Estrutura do projeto 📌
 
@@ -22,8 +23,7 @@ Vite
 4. src/index.js: arquivo de inicialização da aplicação;
 5. src/App.js: componente principal inicial (pode ser modificado);
 
-Observação: O node_modules pode ser excluído por ser um arquivo de dependências que é instalado ao usar o npm install, porém
-a fim de manter uma boa funcionalidade, já disponibilidade o projeto com dependências.
+Observação: O node_modules pode ser excluído por ser um arquivo de dependências que é instalado ao usar o npm install.
 
 
 📌 Extensões utilizadas para React no VS Code 📌

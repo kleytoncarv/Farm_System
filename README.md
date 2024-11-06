@@ -16,11 +16,11 @@ Vite
 
 📌 Estrutura do projeto 📌
 
-node_modules: dependências do projeto;
-public: assets e arquivos estáticos;
-src: onde escrevemos o código da aplicação;
-src/index.js: arquivo de inicialização da aplicação;
-src/App.js: componente principal inicial (pode ser modificado);
+1. node_modules: dependências do projeto;
+2. public: assets e arquivos estáticos;
+3. src: onde escrevemos o código da aplicação;
+4. src/index.js: arquivo de inicialização da aplicação;
+5. src/App.js: componente principal inicial (pode ser modificado);
 
 Observação: O node_modules pode ser excluído por ser um arquivo de dependências que é instalado ao usar o npm install, porém
 a fim de manter uma boa funcionalidade, já disponibilidade o projeto com dependências.
